@@ -1,0 +1,17 @@
+.cabecalho {
+    color: var(--white);
+    width: 100%;
+    height: max-content;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.6rem;
+    font-weight: 600;
+    padding: 6.4rem 0 1rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight: 700;
+}

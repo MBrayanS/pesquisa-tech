@@ -1,0 +1,10 @@
+#root {
+  background-color: var(--cor2);
+  width: 100%;
+  height: max-content;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 6.4rem 7.2rem;
+}

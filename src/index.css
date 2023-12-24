@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --cor1: #376BD7;
+  --cor2: #0D0D1A;
+  --cor3: #222239;
+  --cor4: #ADADAD;
+}
+
+body, html {
+  width: 100%;
+  height: 100vh;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--cor1);
+  border-radius: .5rem;
+}
+body::-webkit-scrollbar { width: 1rem; }
+body::-webkit-scrollbar-track { background: var(--cor3); }

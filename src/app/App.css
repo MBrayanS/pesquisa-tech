@@ -1,0 +1,16 @@
+#root {
+  background-color: var(--cor2);
+  width: 100%;
+  height: max-content;
+}
+
+.main {
+  width: 70rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6.4rem;
+  padding: 6.4rem 0;
+  margin: 0 auto;
+}
